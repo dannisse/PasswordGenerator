@@ -37,9 +37,6 @@ def main():
     # Generate the password
     password = generate_password(length)
 
-    # Display the generated password
-    print("Generated Password:", password)
-
 
 if __name__ == "__main__":
     main()
