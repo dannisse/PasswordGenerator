@@ -8,7 +8,7 @@ import string
 
 # generate_password: this takes an optional argument (length), which determines the length of the password. if no
 # length is determined, it defaults to "8". but you can change this defines lower and upper case letters, digits,
-# and symbols using "string.ascii_lowercase", "string.ascii_uppercase", "string.digits", and "string_puncuation"
+# and symbols using "string.ascii_lowercase", "string.ascii_uppercase", "string.digits", and "string_punctuation"
 # combines all the char sets into "all_chars" generates a random password of specified length by choosing random
 # characters from "all_chars" and joins them together finally, returns generated password
 def generate_password(length=8):
